@@ -19,7 +19,7 @@ export const io = new Server(server, {
 });
 
 const corsOptions = {
-  origin: "http://localhost:3001",
+  origin: "https://susko-quiz.vercel.app/",
   methods: ["GET", "POST"],
 };
 
