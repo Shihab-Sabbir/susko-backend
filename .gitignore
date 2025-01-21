@@ -1,0 +1,57 @@
+# .gitignore for Express Backend
+
+# Node.js-specific items
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build and dependency directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory
+coverage/
+
+# Database files
+data/
+*.sqlite
+
+# Miscellaneous
+*.bak
+*.orig
+*.log.*
+
+# Ignore test results
+results/
+
+# Ignore custom configurations
+config/*
+!config/example-config.js
+
+# Ignore local API keys
+keys/
+*.key
